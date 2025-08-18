@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/viewBackgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/titleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:paddingVertical="50dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="VOCÊ ACERTOU 5/30"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            android:gravity="center"
+        />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="VOCÊ PODE SER MELHOR"
+            android:paddingVertical="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/incorrectColor"
+            android:gravity="center"
+        />
+
+    </LinearLayout>
+
+
+    <Button
+        style="@style/PrimaryButton"
+        android:id="@+id/buttonPlayAgain"
+        android:text="Jogar Novamente"
+        android:layout_below="@id/titleContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+    />
+
+    <Button
+        style="@style/PrimaryButton"
+        android:id="@+id/buttonMainMenu"
+        android:text="Menu Principal"
+        android:layout_below="@id/buttonPlayAgain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/viewBackgroundColor"
+    android:padding="16dp">
+
+    <ImageButton
+        style="@style/ReturnButton"
+        android:id="@+id/buttonBack"
+        android:contentDescription="Voltar"
+    />
+
+    <!-- Caixa com título -->
+    <LinearLayout
+        android:id="@+id/titleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:padding="100dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui terá uma Descricao"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <Button
+        style="@style/PrimaryButton"
+        android:id="@+id/buttonAlternative1"
+        android:text="Alternativa 1"
+        android:layout_below="@id/titleContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        style="@style/PrimaryButton"
+        android:id="@+id/buttonAlternative2"
+        android:text="Alternativa 2"
+        android:layout_below="@id/buttonAlternative1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        style="@style/PrimaryButton"
+        android:id="@+id/buttonAlternative3"
+        android:text="Alternativa 3"
+        android:layout_below="@id/buttonAlternative2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        style="@style/PrimaryButton"
+        android:id="@+id/buttonAlternative4"
+        android:text="Alternativa 4"
+        android:layout_below="@id/buttonAlternative3"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

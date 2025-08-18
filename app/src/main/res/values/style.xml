@@ -1,0 +1,56 @@
+<resources>
+
+    <style name="PrimaryButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/primaryButtonColor</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="SecondaryButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/primaryButtonColor</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ReturnButton">
+        <item name="android:src">@android:drawable/ic_media_previous</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tint">@color/primaryButtonColor</item>
+        <item name="android:contentDescription">Voltar</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginTop">55dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="IncorrectButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/incorrectColor</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="CorrectButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/correctColor</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

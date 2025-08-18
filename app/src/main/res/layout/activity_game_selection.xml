@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D6D6"
+    android:padding="16dp">
+
+    <ImageButton
+        style="@style/ReturnButton"
+        android:id="@+id/buttonBack"
+        android:contentDescription="Voltar"
+    />
+
+    <!-- Caixa com título -->
+    <LinearLayout
+        android:id="@+id/titleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="100dp"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:gravity="center"
+        android:background="@drawable/border_box">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecione o modo de Jogo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Botão Adivinhar por imagem -->
+    <Button
+        android:id="@+id/buttonImageGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adivinhe pela Imagem"
+        android:textAllCaps="true"
+        android:backgroundTint="#2B2B2B"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/titleContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"/>
+
+    <!-- Botão Adivinhar por descricao -->
+    <Button
+        android:id="@+id/buttonDescriptionGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adivinhe pela Descrição"
+        android:textAllCaps="true"
+        android:backgroundTint="#2B2B2B"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/buttonImageGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"/>
+
+</RelativeLayout>
