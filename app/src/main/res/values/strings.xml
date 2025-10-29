@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Layout EldenRing</string>
+
+    <string name="play_btn">PLAY</string>
+
+    <string name="language">Language</string>
+    <string name="sound">Sound</string>
+
+    <string name="game_selection_title">Select the Game Mode</string>
+    <string name="image_game_btn">GUESS BY IMAGE</string>
+    <string name="description_game_btn">GUESS BY DESCRIPTION</string>
+
+    <string name="main_menu_btn">MAIN MENU</string>
+    <string name="play_again_btn">PLAY AGAIN</string>
+    <string name="score_text">YOU GOT %1$d OUT OF %2$d!</string>
+    <string name="end_game_congrat">Congratulations, You got all the questions right!</string>
+    <string name="end_game_no_congrat">Nooo, You can do better than that!</string>
+
+    <string name="name_malenia">Malenia</string>
+    <string name="name_radahn">Radahn</string>
+    <string name="name_godrick">Godrick</string>
+    <string name="name_rivers_of_blood">Rivers of Blood</string>
+    <string name="name_blaidd">Blaidd</string>
+    <string name="name_ranni">Ranni</string>
+    <string name="name_morgott">Morgott</string>
+    <string name="name_hoarah_loux">Hoarah Loux</string>
+
+    <string name="desc_malenia">A demigod cursed with Scarlet Rot, known for her phrase \'I am Malenia, Blade of Miquella\'.</string>
+    <string name="desc_radahn">A general who learned gravity magic so he would not crush his beloved, tiny horse, Leonard.</string>
+    <string name="desc_godrick">The ruler of Stormveil, who grafts parts of other beings onto his body to gain power.</string>
+    <string name="desc_rivers_of_blood">An infamous katana whose special skill, \'Corpse Piler\', causes severe blood loss buildup.</string>
+    <string name="desc_blaidd">The loyal lupine companion of the Snow Witch, Ranni, with a strong sense of duty.</string>
 </resources>

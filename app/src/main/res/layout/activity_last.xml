@@ -21,7 +21,7 @@
             android:id="@+id/title"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="VOCÊ ACERTOU 5/30"
+            android:text="YOU GOT 5/30 RIGHT!"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@color/primaryTextColor"
@@ -46,7 +46,6 @@
     <Button
         style="@style/PrimaryButton"
         android:id="@+id/buttonPlayAgain"
-        android:text="Jogar Novamente"
         android:layout_below="@id/titleContainer"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
@@ -55,7 +54,6 @@
     <Button
         style="@style/PrimaryButton"
         android:id="@+id/buttonMainMenu"
-        android:text="Menu Principal"
         android:layout_below="@id/buttonPlayAgain"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"

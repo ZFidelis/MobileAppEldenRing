@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Layout EldenRing</string>
+
+    <string name="play_btn">JOGAR</string>
+
+    <string name="language">Linguagem</string>
+    <string name="sound">Som</string>
+
+    <string name="game_selection_title">Selecione o Modo de Jogo</string>
+    <string name="image_game_btn">ADIVINHE PELA IMAGEM</string>
+    <string name="description_game_btn">ADIVINHE PELA DESCRIÇÃO</string>
+
+    <string name="main_menu_btn">MENU PRINCIPAL</string>
+    <string name="play_again_btn">JOGAR NOVAMENTE</string>
+    <string name="score_text">VOCÊ ACERTOU %1$d DE %2$d!</string>
+    <string name="end_game_congrat">Parabéns, Você acertou todas as questões!</string>
+    <string name="end_game_no_congrat">Naaao, Você consegue fazer melhor que isso!</string>
+
+
+    <string name="name_malenia">Malenia</string>
+    <string name="name_radahn">Radahn</string>
+    <string name="name_godrick">Godrick</string>
+    <string name="name_rivers_of_blood">Rios de Sangue</string>
+    <string name="name_blaidd">Blaidd</string>
+    <string name="name_ranni">Ranni</string>
+    <string name="name_morgott">Morgott</string>
+    <string name="name_hoarah_loux">Hoarah Loux</string>
+
+    <string name="desc_malenia">Uma semideusa amaldiçoada com a podridão escarlate, conhecida por sua frase \'Eu sou Malenia, Lâmina de Miquella\'.</string>
+    <string name="desc_radahn">Um general que aprendeu magia da gravidade para não esmagar seu amado cavalo, Leonard.</string>
+    <string name="desc_godrick">O governante de Stormveil, que enxerta partes de outros seres em seu corpo para ganhar poder.</string>
+    <string name="desc_rivers_of_blood">Uma katana infame cuja habilidade especial, \'Corpse Piler\', causa acúmulo de sangramento.</string>
+    <string name="desc_blaidd">A fiel companheira lupina da Bruxa da Neve, Ranni, com um forte senso de dever.</string>
+</resources>

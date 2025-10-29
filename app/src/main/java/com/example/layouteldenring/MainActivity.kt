@@ -1,6 +1,5 @@
 package com.example.layouteldenring
 
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         val buttonStart: Button = findViewById(R.id.buttonPlay)
         val buttonConfig: ImageButton = findViewById(R.id.buttonSettings)
+
+        buttonStart.setText(R.string.play_btn)
 
         buttonStart.setOnClickListener {
             val intent = Intent(this, GameSelectionActivity::class.java)

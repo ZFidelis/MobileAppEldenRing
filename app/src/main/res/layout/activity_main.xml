@@ -44,7 +44,6 @@
         android:id="@+id/buttonPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="JOGAR"
         android:textAllCaps="true"
         android:backgroundTint="#2B2B2B"
         android:textColor="#FFFFFF"
