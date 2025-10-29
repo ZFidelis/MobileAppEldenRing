@@ -30,4 +30,18 @@
     <string name="desc_godrick">The ruler of Stormveil, who grafts parts of other beings onto his body to gain power.</string>
     <string name="desc_rivers_of_blood">An infamous katana whose special skill, \'Corpse Piler\', causes severe blood loss buildup.</string>
     <string name="desc_blaidd">The loyal lupine companion of the Snow Witch, Ranni, with a strong sense of duty.</string>
+    <string name="desc_ranni">A mysterious Snow Witch who orchestrates the Age of Stars.</string>
+    <string name="desc_morgott">The Omen King and veiled monarch of Leyndell, the Royal Capital.</string>
+    <string name="desc_hoarah_loux">The first Elden Lord and chieftain of the badlands, once known as Godfrey.</string>
+
+    <integer-array name="image_questions" translatable="false">
+        <item name="image_malenia">@drawable/malenia</item>
+        <item name="image_radahn">@drawable/radahn</item>
+        <item name="image_godrick">@drawable/godrick</item>
+        <item name="image_rivers_of_blood">@drawable/rivers_of_blood</item>
+        <item name="image_blaidd">@drawable/blaidd</item>
+        <item name="image_ranni">@drawable/ranni</item>
+        <item name="image_morgott">@drawable/morgott</item>
+        <item name="image_hoarah_loux">@drawable/hoarah_loux</item>
+    </integer-array>
 </resources>

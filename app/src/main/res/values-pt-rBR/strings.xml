@@ -16,7 +16,6 @@
     <string name="end_game_congrat">Parabéns, Você acertou todas as questões!</string>
     <string name="end_game_no_congrat">Naaao, Você consegue fazer melhor que isso!</string>
 
-
     <string name="name_malenia">Malenia</string>
     <string name="name_radahn">Radahn</string>
     <string name="name_godrick">Godrick</string>
@@ -31,4 +30,18 @@
     <string name="desc_godrick">O governante de Stormveil, que enxerta partes de outros seres em seu corpo para ganhar poder.</string>
     <string name="desc_rivers_of_blood">Uma katana infame cuja habilidade especial, \'Corpse Piler\', causa acúmulo de sangramento.</string>
     <string name="desc_blaidd">A fiel companheira lupina da Bruxa da Neve, Ranni, com um forte senso de dever.</string>
+    <string name="desc_ranni">Uma misteriosa Bruxa da Neve que orquestra a Era das Estrelas.</string>
+    <string name="desc_morgott">O Rei Agouro e monarca velado de Leyndell, a Capital Real.</string>
+    <string name="desc_hoarah_loux">O primeiro Lorde Prístino e chefe das terras áridas, antes conhecido como Godfrey.</string>
+
+    <integer-array name="image_questions" translatable="false">
+        <item name="image_malenia">@drawable/malenia</item>
+        <item name="image_radahn">@drawable/radahn</item>
+        <item name="image_godrick">@drawable/godrick</item>
+        <item name="image_rivers_of_blood">@drawable/rivers_of_blood</item>
+        <item name="image_blaidd">@drawable/blaidd</item>
+        <item name="image_ranni">@drawable/ranni</item>
+        <item name="image_morgott">@drawable/morgott</item>
+        <item name="image_hoarah_loux">@drawable/hoarah_loux</item>
+    </integer-array>
 </resources>
